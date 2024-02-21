@@ -8,8 +8,6 @@ include(bare)
 
 bare_target(target)
 
-install_node_modules(LOCKFILE)
-
 add_subdirectory(vendor/bare EXCLUDE_FROM_ALL)
 
 add_library(${name} STATIC)

@@ -1,4 +1,4 @@
-const events = require('events')
-const fs = require('fs')
+const os = require('bare-os')
 
-console.log({ events, fs })
+console.log('I am a single executable!')
+console.log('Here I use a native module to print your home folder:', os.homedir())
