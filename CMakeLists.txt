@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 
-set(name bare_distributable)
+set(name bare_distributable_hello_world)
 
 project(${name} C)
 
