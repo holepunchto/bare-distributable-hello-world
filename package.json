@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "bare-distributable",
+  "imports": {
+    "events": "bare-events",
+    "fs": "bare-fs"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/bare-distributable.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/bare-distributable/issues"
+  },
+  "homepage": "https://github.com/holepunchto/bare-distributable#readme",
+  "dependencies": {
+    "bare-events": "^2.0.0",
+    "bare-fs": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
